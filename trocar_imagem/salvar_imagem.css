@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+body {
+    background-color: #030b16;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.322), rgba(255, 0, 0, 0));
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    background-color: #0f1924;
+    padding: 80px 70px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    transition: 0.5s;
+}
+.container:hover
+{
+    background-color: #131e2b;
+}
+.enviar {
+    background-color: #2a87dd;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+}
+.formulario
+{
+    width: 100%;
+    height: 100%;
+}
+.caixa{
+    width: 90%;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 10px;
+}
+.tabela
+{
+    width: 80%;
+}
